@@ -1,65 +1,65 @@
 # Write Deep Writer
 
-Adaptive deep writing agent that transforms any input into coherent, in-depth written content.
+自适应深度写作智能体，将任意输入转化为连贯、深度的文字内容。
 
-## Overview
+## 概述
 
-This agent converts spoken or fragmented content (video interviews, speeches, podcasts) into well-structured, deep written content. It automatically:
-- Identifies writing principles, target audience, and scenarios from input
-- Handles spoken language and removes redundancies
-- Merges similar viewpoints for clarity
-- Optimizes logic while preserving original structure
-- Provides three-stage workflow with progress tracking
+该智能体将口语化或碎片化内容（视频采访、演讲、播客）转化为结构严谨、内容深度的文字。它能自动：
+- 从输入中识别写作原则、目标受众和场景
+- 处理口语化内容并去除冗余
+- 合并相似观点以增强清晰度
+- 优化逻辑同时保持原有结构
+- 提供三阶段工作流程并跟踪进度
 
-## Quick Start
-
-```
-Input: Any content (video interview transcript, speech text, article, podcast transcript)
-
-Output: Deep, structured written content (5000-10000 words)
-```
-
-## Core Capabilities
-
-### Eight-Layer Processing System
-
-1. **Requirement Identification** - Extracts writing principles, audience, scenario, and purpose from input
-2. **Brief Document Construction** - Builds writing baseline document with persona, audience profile, and stance
-3. **Preprocessing** - Identifies and handles spoken language, repetitions, and fragmented viewpoints
-4. **Viewpoint Extraction & Clustering** - Extracts and merges similar viewpoints by semantic similarity
-5. **Logic Analysis** - Identifies causal, parallel, progressive, contrast, and summary relationships
-6. **Structure Optimization** - Maintains core framework while enhancing logic and removing duplicates
-7. **Deep Writing** - Supplements with background knowledge, data, examples, and enhances expression
-8. **Quality Check** - Verifies all constraints are met before final output
-
-## Workflow
-
-### Three-Stage Process with Todo Tracking
+## 快速开始
 
 ```
-Stage 1: Analysis & Planning
-  - Requirement Identification
-  - Brief Document Construction
-  - Preprocessing
-  - Viewpoint Extraction & Clustering
-  - Logic Analysis
+输入：任意内容（视频采访文本、演讲稿、文章、播客文本）
 
-Stage 2: Structure Design
-  - Structure Optimization
-
-Stage 3: Content Writing
-  - Deep Writing
-  - Quality Check
+输出：深度、结构化的文字内容（5000-10000字）
 ```
 
-## Usage
+## 核心能力
 
-To use this agent, provide any input content and follow the three-stage workflow. Each stage requires user confirmation before proceeding.
+### 八层处理系统
 
-## Documentation
+1. **需求识别** - 从输入中提取写作原则、受众、场景和目的
+2. **Brief 文档构建** - 构建写作基准文档，包含创作者人设、受众画像和立场
+3. **预处理** - 识别并处理口语化内容、重复和碎片化观点
+4. **观点提取与聚类** - 提取并按语义相似度合并相似观点
+5. **逻辑分析** - 识别因果、并列、递进、对比和总结关系
+6. **结构优化** - 保持核心框架的同时增强逻辑并删除重复
+7. **深度撰写** - 补充背景知识、数据、示例并优化表达
+8. **质量检查** - 验证所有约束条件后再输出最终内容
 
-For detailed documentation, see [skills/write-deep-writer/SKILL.md](skills/write-deep-writer/SKILL.md)
+## 工作流程
 
-## License
+### 三阶段流程（带任务跟踪）
 
-See LICENSE.txt for details.
+```
+阶段一：分析与规划
+  - 需求识别
+  - Brief 文档构建
+  - 预处理
+  - 观点提取与聚类
+  - 逻辑分析
+
+阶段二：结构设计
+  - 结构优化
+
+阶段三：内容撰写
+  - 深度撰写
+  - 质量检查
+```
+
+## 使用方法
+
+使用该智能体时，提供任意输入内容并遵循三阶段工作流程。每个阶段都需要用户确认后才能继续。
+
+## 文档
+
+详细文档请参阅 [skills/write-deep-writer/SKILL.md](skills/write-deep-writer/SKILL.md)
+
+## 许可证
+
+详见 LICENSE.txt。
