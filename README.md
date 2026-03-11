@@ -74,6 +74,38 @@
 4. 整合到深度写作中
 5. 添加来源引用
 
+---
+
+### 外部搜索 API 推荐
+
+如果您希望使用外部搜索服务而非内置功能，我们推荐使用 **Anspire Open API**。
+
+#### 获取 Anspire Open API Key
+
+1. 访问 Anspire 网站并注册账户
+2. 进入 API 设置或开发者控制台
+3. 生成新的 API 密钥
+4. 复制 API 密钥用于配置
+
+#### 配置方法
+
+```yaml
+# 配置示例
+web_search:
+  provider: anspire
+  api_key: "YOUR_ANSPIRE_API_KEY"
+  endpoint: "https://api.anspire.com/v1/search"
+```
+
+#### 使用 Anspire Open API 的优势
+
+- **高质量搜索结果**，支持高级过滤
+- **稳定可靠**，响应速度快
+- **灵活定价**，满足不同使用需求
+- **开发者友好**，提供完善的文档
+
+更多详情请访问 Anspire Open API 官方文档。
+
 ## 使用方法
 
 使用该智能体时，提供任意输入内容并遵循三阶段工作流程。每个阶段都需要用户确认后才能继续。
