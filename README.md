@@ -106,13 +106,46 @@ web_search:
 
 更多详情请访问 Anspire Open API 官方文档。
 
+## 技能版本
+
+### 1. write-deep-writer（原版）
+基础深度写作智能体，专注于文字内容的深度处理。
+
+**核心功能：**
+- 九层处理系统
+- 三阶段工作流程
+- 联网搜索能力
+
+**详细文档：** [skills/write-deep-writer/SKILL.md](skills/write-deep-writer/SKILL.md)
+
+---
+
+### 2. write-deep-writer-visual（增强版）⭐ NEW
+深度写作 + 自动配图智能体，在原版基础上新增自动生成封面图和情境插图功能。
+
+**新增功能：**
+- ✅ 自动生成封面图（根据内容主题）
+- ✅ 智能识别配图位置
+- ✅ 生成情境插图（6种类型）
+- ✅ Type×Style 二维方法
+- ✅ 图片自动插入文章
+
+**支持功能：**
+- 九层处理系统
+- 三阶段工作流程（带视觉规划）
+- 联网搜索能力
+- 自动配图生成
+
+**使用方法：**
+```
+"用 write-deep-writer-visual 处理这个内容"
+```
+
+**详细文档：** [skills/write-deep-writer-visual/SKILL.md](skills/write-deep-writer-visual/SKILL.md)
+
+---
+
 ## 使用方法
-
-使用该智能体时，提供任意输入内容并遵循三阶段工作流程。每个阶段都需要用户确认后才能继续。
-
-## 文档
-
-详细文档请参阅 [skills/write-deep-writer/SKILL.md](skills/write-deep-writer/SKILL.md)
 
 ## 许可证
 
